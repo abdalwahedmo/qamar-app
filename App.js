@@ -31,7 +31,6 @@ export default function App() {
       </header>
 
       <main style={{ display: "flex", flexDirection: "column", gap: "24px" }}>
-        {/* فيديو اليوم */}
         <section style={{ background: "#f9f9f9", padding: "16px", borderRadius: "16px", boxShadow: "0 2px 4px rgba(0,0,0,0.1)" }}>
           <h2 style={{ fontSize: "20px", fontWeight: "600", marginBottom: "12px" }}>📺 فيديو اليوم</h2>
           <div style={{ position: "relative", paddingBottom: "56.25%", height: 0 }}>
@@ -44,7 +43,6 @@ export default function App() {
           </div>
         </section>
 
-        {/* التصنيفات */}
         <section style={{ display: "grid", gap: "16px" }}>
           {[
             { title: "🍰 حلويات", description: "أطيب وصفات الحلويات الشرقية والغربية." },
@@ -58,7 +56,6 @@ export default function App() {
           ))}
         </section>
 
-        {/* وصفات مكتوبة */}
         <section style={{ background: "#fff6e5", padding: "16px", borderRadius: "16px", boxShadow: "0 1px 3px rgba(0,0,0,0.1)" }}>
           <h2 style={{ fontSize: "20px", fontWeight: "600", marginBottom: "12px" }}>📖 وصفات مكتوبة</h2>
           <ul style={{ paddingRight: "20px" }}>
